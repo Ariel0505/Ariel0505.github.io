@@ -5,73 +5,75 @@
     <title>Volleyball</title>
 
 
-
-
     <style>
-
-        body{
-            text-align:center;
+        /* Add a black background color to the top navigation bar */
+        .topnav {
+            overflow: hidden;
+            background-color: rgba(113, 162, 208, 0.51);
         }
 
-        p{
-            text-align: left;
-        }
-        h2{
-            text-align: left;
-        }
-        body{
-            background-color: rgba(163, 228, 255, 0.5);
-
-        }
-        .h4{
-            text-align: left;
-            border: 3px solid rgba(0, 0, 0, 0.97);
-            width: 30%;
-            border-radius: 8px;
-        }
-        /*.h4::before{
-
-            content: '';
+        /* Style the links inside the navigation bar */
+        .topnav a {
+            float: left;
             display: block;
-            position: absolute;
-            top: 0;
-            width: 50%;
-            left: 25%;
-            border-top: 3px solid rgb(118, 134, 203);
-        }*/
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Style the "active" element to highlight the current page */
+        .topnav a.active {
+            background-color: rgba(117, 161, 186, 0.66);
+            color: white;
+        }
+
+        /* Style the search box inside the navigation bar */
+        .topnav input[type=text] {
+            float: right;
+            padding: 6px;
+            border: none;
+            margin-top: 8px;
+            margin-right: 16px;
+            font-size: 17px;
+        }
+
+        /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+        @media screen and (max-width: 600px) {
+            .topnav a, .topnav input[type=text] {
+                float: none;
+                display: block;
+                text-align: left;
+                width: 100%;
+                margin: 0;
+                padding: 14px;
+            }
+            .topnav input[type=text] {
+                border: 1px solid rgba(112, 129, 198, 0.51);
+            }
+        }
+
+        h1{
+            text-align: center;
+            -webkit-animation: colorchange infinite ;
+        }
     </style>
 </head>
+<div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="https://ariel0505.github.io/clubs">Clubs</a>
+
+</div>
 
 <body>
-<h1>All About Volleyball🏐</h1>
-<img src="https://cdn.pixabay.com/photo/2017/08/14/08/22/volleyball-2639700__340.jpg" width="500" alt="volleyball pic of ball">
-<h4 class="h4"><a href="#what-is-volleyball">What is Volleyball?</a>
-    <br><br><a href="#positions-in-volleyball">Positions in Volleyball</a>
-    <br><br><a href="#volleyball-clubs">Volleyball Clubs to Join</a></h4>
-<h2 id="what-is-volleyball">What is Volleyball?</h2>
-<p>Volleyball is a sport that any person can play whether your a girl or boy. When playing volleyball you can use any part of your body however you are not supposed to hold the ball.
-    <br> You cannot only hold the ball when you are serving or handling the ball to the other team. When handing the other team a ball you have to roll it under the net. There is a net between you and
-    <br> the other team amd you and the other team cannot touch or cross the net. There are 3 sets per game. however when it is finals or a very important game it goes to 5 sets. For the 3 set game you
-    <br> have to win 2 sets. To win a set you have to have a total of 25 points. However for a 5 set game the fifth set will be up to 15 points. If it goes to 14 14 or 24 24 for the points there will
-    <br> be a tiebreaker whoever has the lead of two points.</p>
-<h2 id="positions-in-volleyball">Positions in Volleyball</h2>
-<p>There are at least 8 different positions. The 8 positions are outside hitter also known as an all around player they are also called a wing spiker or left side spiker.
-    <br> Another position is a setter. A setter needs to get the second ball however if they can't and they got the first ball or the ball is to far usually someone else
-    <br> like a defender or anyone else can get the second ball. Usually the libero gets the second ball. Liberos are sometimes short in size and they need to be quick and
-    <br> have good reflexes. The libero is a defender. The libero needs to pick up the ball usually the first ball. The libero needs to have good control and needs to pick
-    <br> up tips, spikes, and serves. There is also a position called a middle blocker. The middle blocker doesn't hit like the wing spiker he/she hits in the middle and is a
-    <br> good blocker. The middle usually is a good jumper, fast, or a tall person. A middle blocker is sometimes used as a decoy for the ace to come in. The ace is sometimes
-    <br> the right side hitter or wing spiker. There is also a position called a pinch server. A pinch server switches out with a middle blocker and has to have a hard serve,
-    <br> soft serve, a floating serve, or even a jump serve. a hard serve is where it is almost out but it is on the line. You need good control and need to be relaxed and calm.
-    <br> A soft serve is a serve that hits the net and falls onto the court witch is called a short. A floating serve is where the ball you see moves in different directions. A
-    <br> jump serve you just jump and serve however the timing needs to be correct and there needs to be a course where the serve curves.</p>
-<h2 id="volleyball-clubs">Volleyball Clubs to Join</h2>
-
-<p>Volleyball clubs in the Bay Area:
-    <br><br><a href="http://www.bayareavolleyballclub.com/" target="_blank"> Bay Area Volleyball Club</a>
-    <br><br><a href="https://recsports.berkeley.edu/mens-club-volleyball/" target="_blank"> Men's Cal Volleyball Club</a>
-    <br><br><a href="http://www.goldenbearvolleyball.com/" target="_blank">Cal Coed Volleyball Club</a></p>
-
+<h1 >Volleyball</h1>
 
 
 </body>
