@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Volleyball</title>
+    <style>
+
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            color: rgba(111, 154, 178, 0.67);
+        }
+
+        .topnav a.active {
+            background-color: rgba(111, 154, 178, 0.67);
+            color: white;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="topnav">
+    <a href="#home">Home</a>
+    <a class="active" href="#news">News</a>
+    <a href="#clubs">Clubs</a>
+</div>
+
+<div style="padding-left:16px">
+
+</div>
+
+<h1>News about Volleyball</h1>
+
+</body>
+</html>
+
