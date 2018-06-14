@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Surveym   n i9mkkk jmnmjmn mmmjj n jjmmmkkkjkjmjjkjkmkkkk,,,km,mm,mmmm,mknmmmmmm    </title>
+    <link rel="stylesheet" type="text/css" href="final.css">
+</head>
+<body>
+<ul class="topnav">
+    <li><a href="Home.html">Home</a></li>
+    <li><a class="active" href="survey.html">Survey</a></li>
+    <li><a href="quizzes.html">Quiz</a></li>
+    <li><a href="games.html">Games</a></li>
+    <li><a href="topsecret.html">Top Secret</a></li>
+</ul>
+<h1>Survey</h1>
+
+<div id="quiz-form">
+    <h1>What "Mean Girls" character are you?</h1>
+    <p>Take this questionnaire to find out!</p>
+
+    <form id="quiz">
+        <!-- Question 1 -->
+        <h2>What's your favorite food?</h2>
+
+        <label><input type="radio" name="q1" value="c1">
+            Waffles
+        </label><br />
+        <label><input type="radio" name="q1" value="c2">
+            Pizza
+        </label><br />
+        <label><input type="radio" name="q1" value="c3">
+            Sushi
+        </label><br />
+        <label><input type="radio" name="q1" value="c4">
+            I don't want to gain any more weight!
+        </label><br />
+
+        <!-- Question 2 -->
+        <h2>What is your favorite animal?</h2>
+
+        <label><input type="radio" name="q2" value="c1">
+            Cat
+        </label><br />
+        <label><input type="radio" name="q2" value="c2">
+            Dog
+        </label><br />
+        <label><input type="radio" name="q2" value="c3">
+            Fish
+        </label><br />
+        <label><input type="radio" name="q2" value="c4">
+            Eww I hate animals!!!
+        </label><br />
+
+        <!-- Question 3 -->
+        <h2>What do you hate most?</h2>
+
+        <label><input type="radio" name="q3" value="c4">
+            I hate everything!
+        </label><br />
+        <label><input type="radio" name="q3" value="c2">
+            People not liking you
+        </label><br />
+        <label><input type="radio" name="q3" value="c3">
+            People who are annoying
+        </label><br />
+        <label><input type="radio" name="q3" value="c1">
+            People who are smart
+        </label><br />
+
+        <!-- Question 4 -->
+        <h2>What class is your least favorite?</h2>
+
+        <label><input type="radio" name="q4" value="c1">
+            Math
+        </label><br />
+        <label><input type="radio" name="q4" value="c4">
+            Every class
+        </label><br />
+        <label><input type="radio" name="q4" value="c3">
+            Science
+        </label><br />
+        <label><input type="radio" name="q4" value="c2">
+            English
+        </label><br />
+
+
+    </form>
+    <button type="submit" id="submit"
+            onclick="tabulateAnswers()">Submit Your Answers</button>
+    <button type="reset" id="reset" onclick="resetAnswer()">Reset</button>
+
+    <div id="answer">Your result will show up here!</div>
+</div>
+<script src="everything.js"></script>
+</body>
+</html>
