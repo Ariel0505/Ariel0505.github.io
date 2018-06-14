@@ -1,0 +1,112 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgrey;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 78px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+li a:hover:not(.active) {
+    background-color: lightpink;
+}
+
+ul a.active {
+    background-color: lightpink;
+    color: white;
+}
+Body{
+
+
+
+    color: white;
+    background-color: red;
+    animation: myAnimation 5s infinite;
+}
+
+@keyframes myAnimation {
+    33% {
+        background-color: green;
+    }
+    66% {
+        background-color: blue;
+
+    }
+}
+h2 {
+    margin: 5px 0;
+}
+#wrapper {
+    width: 600px;
+    margin: 0 auto;
+    background: Black;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+input {
+    margin: 5px 10px;
+}
+button {
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px 0;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    border-bottom: 3px solid #333;
+}
+#submit {
+    background: green;
+}
+
+#reset {
+    background: red;
+}
+#answer {
+    border: 1px dashed #ccc;
+    background: #eee;
+    padding: 10px;
+}
+#quiz-form {
+    width: 600px;
+    margin: 0 auto;
+    background: #000000;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #fbfffd;
+    font-size: 20px;
+}
+
+#answer{
+    color: black;
+}
+
+#link{
+    border: 1px dashed #ccc;
+    background: #eee;
+    padding: 10px;
+    color: black;
+}
+body{
+    font-size: 28px;
+}
+#ty{
+    font-size: 28px;
+}
